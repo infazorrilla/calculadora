@@ -2,9 +2,9 @@ package com.elorrieta;
 
 import java.util.Scanner;
 
-public class main
+public class inicio
 {
-    public static void main(String[] ARGS)
+    public static void main(String[] args)
     {
         Scanner obtenerNumero = new Scanner(System.in);
         int contador,I,numero;
@@ -28,6 +28,7 @@ public class main
         }else{
             System.out.println("El numero no es primo");
         }
+        System.out.println("por favor, introduzca que operacion quiere realizar");
     }
-    System.out.println("por favor, introduzca que operacion quiere realizar");
+    
 }
