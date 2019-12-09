@@ -29,4 +29,5 @@ public class main
             System.out.println("El numero no es primo");
         }
     }
+    System.out.println("por favor, introduzca que operacion quiere realizar");
 }
